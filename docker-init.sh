@@ -1,5 +1,6 @@
 #!/bin/sh
-# 
+
+set -o pipefail
 
 # add dependencies
 apk add make git build-base
